@@ -1,0 +1,12 @@
+Error 00100. 0x130600 (Thread 0x0E84):
+Access overrun: Attempt to access 4 byte(s) at 0x00405864+4, that is at offset
+ 0+4 in block 0x00405864(=Kanji.exe:0x02:000864) which is only 1 bytes long.
+Call Tree:
+   0x00402F89(=Kanji.exe:0x01:001F89) C:\tekuchka\Kanji\AddFunc.cpp#20
+   0x004020EA(=Kanji.exe:0x01:0010EA) C:\tekuchka\Kanji\MainForm.cpp#34
+   0x400EDDA7(=vcl60.bpl:0x01:03CDA7)
+   0x400EDA93(=vcl60.bpl:0x01:03CA93)
+   0x400F59A4(=vcl60.bpl:0x01:0449A4)
+   0x004018ED(=Kanji.exe:0x01:0008ED) C:\tekuchka\Kanji\Kanji.cpp#13
+
+------------------------------------------
