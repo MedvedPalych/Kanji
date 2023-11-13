@@ -1,5 +1,5 @@
 /**********************************
-Ïîäãîòîâêà ê N5, made by Medved, 2018
+ÐŸÐ¾Ð´Ð³Ð¾Ñ‚Ð¾Ð²ÐºÐ° Ðº N5, made by Medved, 2018
 ***********************************/
 //---------------------------------------------------------------------------
 
@@ -48,7 +48,7 @@ void __fastcall TGETsumN5::FormCreate(TObject *Sender) {
 	char s[50];
 	//sprintf(s,"pics\\%s.bmp",kanji[Rotation[n]]);
 	//Kanji->Picture->LoadFromFile(s);
-	sprintf(s,"kanji%d",Rotation[n]);// ïèøåì â ñòðîêó ïóòü ôàéëà
+	sprintf(s,"kanji%d",Rotation[n]);// Ð¿Ð¸ÑˆÐµÐ¼ Ð² ÑÑ‚Ñ€Ð¾ÐºÑƒ Ð¿ÑƒÑ‚ÑŒ Ñ„Ð°Ð¹Ð»Ð°
 	GETsumN5->Kanji->Picture->Bitmap->LoadFromResourceName((int)HInstance,s);
 	ShuffleButtons();
 	ProgressBar2->Position=5;
